@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880D9EFE2018B4DB0081CAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9EFD2018B4DB0081CAD0 /* AppDelegate.swift */; };
+		880D9F062018B4DB0081CAD0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9F052018B4DB0081CAD0 /* GameViewController.swift */; };
+		880D9F092018B4DB0081CAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F072018B4DB0081CAD0 /* Main.storyboard */; };
+		880D9F0B2018B4DB0081CAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F0A2018B4DB0081CAD0 /* Assets.xcassets */; };
+		880D9F0E2018B4DB0081CAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F0C2018B4DB0081CAD0 /* LaunchScreen.storyboard */; };
+		880D9F172018B50D0081CAD0 /* HeroProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9F162018B50D0081CAD0 /* HeroProperties.swift */; };
+		880D9F192018B6580081CAD0 /* HeroTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9F182018B6580081CAD0 /* HeroTextures.swift */; };
+		880D9F402018B7720081CAD0 /* anye_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1A2018B7720081CAD0 /* anye_0 */; };
+		880D9F412018B7720081CAD0 /* chuan_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1B2018B7720081CAD0 /* chuan_0 */; };
+		880D9F422018B7720081CAD0 /* chuan_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1C2018B7720081CAD0 /* chuan_2 */; };
+		880D9F432018B7720081CAD0 /* deathking_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1D2018B7720081CAD0 /* deathking_0 */; };
+		880D9F442018B7720081CAD0 /* deathking_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1E2018B7720081CAD0 /* deathking_2 */; };
+		880D9F452018B7720081CAD0 /* doubledragon_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F1F2018B7720081CAD0 /* doubledragon_0 */; };
+		880D9F462018B7720081CAD0 /* doubledragon_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F202018B7720081CAD0 /* doubledragon_2 */; };
+		880D9F472018B7720081CAD0 /* engineer_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F212018B7720081CAD0 /* engineer_0 */; };
+		880D9F482018B7720081CAD0 /* gladiator_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F222018B7720081CAD0 /* gladiator_0 */; };
+		880D9F492018B7720081CAD0 /* hanbing_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F232018B7720081CAD0 /* hanbing_0 */; };
+		880D9F4A2018B7720081CAD0 /* icedragon_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F242018B7720081CAD0 /* icedragon_0 */; };
+		880D9F4B2018B7720081CAD0 /* icedragon_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F252018B7720081CAD0 /* icedragon_2 */; };
+		880D9F4C2018B7720081CAD0 /* lianjin_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F262018B7720081CAD0 /* lianjin_0 */; };
+		880D9F4D2018B7720081CAD0 /* meidusha_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F272018B7720081CAD0 /* meidusha_0 */; };
+		880D9F4E2018B7720081CAD0 /* meidusha_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F282018B7720081CAD0 /* meidusha_2 */; };
+		880D9F4F2018B7720081CAD0 /* najia_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F292018B7720081CAD0 /* najia_0 */; };
+		880D9F502018B7720081CAD0 /* nangua_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2A2018B7720081CAD0 /* nangua_0 */; };
+		880D9F512018B7720081CAD0 /* nangua_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2B2018B7720081CAD0 /* nangua_2 */; };
+		880D9F522018B7720081CAD0 /* ngnw_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2C2018B7720081CAD0 /* ngnw_0 */; };
+		880D9F532018B7720081CAD0 /* ngnw_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2D2018B7720081CAD0 /* ngnw_2 */; };
+		880D9F542018B7720081CAD0 /* nightkiller_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2E2018B7720081CAD0 /* nightkiller_0 */; };
+		880D9F552018B7720081CAD0 /* predator_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F2F2018B7720081CAD0 /* predator_0 */; };
+		880D9F562018B7720081CAD0 /* qiubite_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F302018B7720081CAD0 /* qiubite_0 */; };
+		880D9F572018B7720081CAD0 /* qiubite_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F312018B7720081CAD0 /* qiubite_2 */; };
+		880D9F582018B7720081CAD0 /* qrjfs_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F322018B7720081CAD0 /* qrjfs_0 */; };
+		880D9F592018B7720081CAD0 /* qrjfs_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F332018B7720081CAD0 /* qrjfs_2 */; };
+		880D9F5A2018B7720081CAD0 /* sage_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F342018B7720081CAD0 /* sage_0 */; };
+		880D9F5B2018B7720081CAD0 /* santa_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F352018B7720081CAD0 /* santa_0 */; };
+		880D9F5C2018B7720081CAD0 /* santa_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F362018B7720081CAD0 /* santa_2 */; };
+		880D9F5D2018B7720081CAD0 /* skeletonking_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F372018B7720081CAD0 /* skeletonking_0 */; };
+		880D9F5E2018B7720081CAD0 /* skeletonking_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F382018B7720081CAD0 /* skeletonking_2 */; };
+		880D9F5F2018B7720081CAD0 /* stlong_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F392018B7720081CAD0 /* stlong_0 */; };
+		880D9F602018B7720081CAD0 /* stlong_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3A2018B7720081CAD0 /* stlong_2 */; };
+		880D9F612018B7720081CAD0 /* wolfman_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3B2018B7720081CAD0 /* wolfman_0 */; };
+		880D9F622018B7720081CAD0 /* xxg_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3C2018B7720081CAD0 /* xxg_0 */; };
+		880D9F632018B7720081CAD0 /* xxg_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3D2018B7720081CAD0 /* xxg_2 */; };
+		880D9F642018B7720081CAD0 /* zhongjia_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3E2018B7720081CAD0 /* zhongjia_0 */; };
+		880D9F652018B7720081CAD0 /* zhongjia_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3F2018B7720081CAD0 /* zhongjia_2 */; };
+		880D9F682018C38B0081CAD0 /* BattleTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9F672018C38B0081CAD0 /* BattleTextures.swift */; };
+		88C53F492018C54500CA8E51 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F482018C54500CA8E51 /* BattleScene.swift */; };
+		88C53F4B2018C57100CA8E51 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F4A2018C57100CA8E51 /* Layout.swift */; };
+		88C53F4D2019029B00CA8E51 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F4C2019029B00CA8E51 /* Head.swift */; };
+		88C53F4F2019083700CA8E51 /* icones.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F4E2019083700CA8E51 /* icones.xcassets */; };
+		88C53F522019DEEE00CA8E51 /* incorect.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F512019DEEE00CA8E51 /* incorect.caf */; };
+		88C53F542019DFA900CA8E51 /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F532019DFA900CA8E51 /* click.caf */; };
+		88C53F562019DFC100CA8E51 /* fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F552019DFC100CA8E51 /* fx.swift */; };
+		88C53F58201A125600CA8E51 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F57201A125600CA8E51 /* Hero.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		880D9EFA2018B4DB0081CAD0 /* Clash Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clash Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D9EFD2018B4DB0081CAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880D9F052018B4DB0081CAD0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		880D9F082018B4DB0081CAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880D9F0A2018B4DB0081CAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880D9F0D2018B4DB0081CAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880D9F0F2018B4DB0081CAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D9F162018B50D0081CAD0 /* HeroProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroProperties.swift; sourceTree = "<group>"; };
+		880D9F182018B6580081CAD0 /* HeroTextures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTextures.swift; sourceTree = "<group>"; };
+		880D9F1A2018B7720081CAD0 /* anye_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = anye_0; sourceTree = "<group>"; };
+		880D9F1B2018B7720081CAD0 /* chuan_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chuan_0; sourceTree = "<group>"; };
+		880D9F1C2018B7720081CAD0 /* chuan_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chuan_2; sourceTree = "<group>"; };
+		880D9F1D2018B7720081CAD0 /* deathking_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = deathking_0; sourceTree = "<group>"; };
+		880D9F1E2018B7720081CAD0 /* deathking_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = deathking_2; sourceTree = "<group>"; };
+		880D9F1F2018B7720081CAD0 /* doubledragon_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doubledragon_0; sourceTree = "<group>"; };
+		880D9F202018B7720081CAD0 /* doubledragon_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doubledragon_2; sourceTree = "<group>"; };
+		880D9F212018B7720081CAD0 /* engineer_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = engineer_0; sourceTree = "<group>"; };
+		880D9F222018B7720081CAD0 /* gladiator_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gladiator_0; sourceTree = "<group>"; };
+		880D9F232018B7720081CAD0 /* hanbing_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hanbing_0; sourceTree = "<group>"; };
+		880D9F242018B7720081CAD0 /* icedragon_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icedragon_0; sourceTree = "<group>"; };
+		880D9F252018B7720081CAD0 /* icedragon_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icedragon_2; sourceTree = "<group>"; };
+		880D9F262018B7720081CAD0 /* lianjin_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lianjin_0; sourceTree = "<group>"; };
+		880D9F272018B7720081CAD0 /* meidusha_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = meidusha_0; sourceTree = "<group>"; };
+		880D9F282018B7720081CAD0 /* meidusha_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = meidusha_2; sourceTree = "<group>"; };
+		880D9F292018B7720081CAD0 /* najia_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = najia_0; sourceTree = "<group>"; };
+		880D9F2A2018B7720081CAD0 /* nangua_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nangua_0; sourceTree = "<group>"; };
+		880D9F2B2018B7720081CAD0 /* nangua_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nangua_2; sourceTree = "<group>"; };
+		880D9F2C2018B7720081CAD0 /* ngnw_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ngnw_0; sourceTree = "<group>"; };
+		880D9F2D2018B7720081CAD0 /* ngnw_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ngnw_2; sourceTree = "<group>"; };
+		880D9F2E2018B7720081CAD0 /* nightkiller_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nightkiller_0; sourceTree = "<group>"; };
+		880D9F2F2018B7720081CAD0 /* predator_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = predator_0; sourceTree = "<group>"; };
+		880D9F302018B7720081CAD0 /* qiubite_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qiubite_0; sourceTree = "<group>"; };
+		880D9F312018B7720081CAD0 /* qiubite_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qiubite_2; sourceTree = "<group>"; };
+		880D9F322018B7720081CAD0 /* qrjfs_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qrjfs_0; sourceTree = "<group>"; };
+		880D9F332018B7720081CAD0 /* qrjfs_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qrjfs_2; sourceTree = "<group>"; };
+		880D9F342018B7720081CAD0 /* sage_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sage_0; sourceTree = "<group>"; };
+		880D9F352018B7720081CAD0 /* santa_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = santa_0; sourceTree = "<group>"; };
+		880D9F362018B7720081CAD0 /* santa_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = santa_2; sourceTree = "<group>"; };
+		880D9F372018B7720081CAD0 /* skeletonking_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletonking_0; sourceTree = "<group>"; };
+		880D9F382018B7720081CAD0 /* skeletonking_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletonking_2; sourceTree = "<group>"; };
+		880D9F392018B7720081CAD0 /* stlong_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stlong_0; sourceTree = "<group>"; };
+		880D9F3A2018B7720081CAD0 /* stlong_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stlong_2; sourceTree = "<group>"; };
+		880D9F3B2018B7720081CAD0 /* wolfman_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wolfman_0; sourceTree = "<group>"; };
+		880D9F3C2018B7720081CAD0 /* xxg_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xxg_0; sourceTree = "<group>"; };
+		880D9F3D2018B7720081CAD0 /* xxg_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xxg_2; sourceTree = "<group>"; };
+		880D9F3E2018B7720081CAD0 /* zhongjia_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zhongjia_0; sourceTree = "<group>"; };
+		880D9F3F2018B7720081CAD0 /* zhongjia_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zhongjia_2; sourceTree = "<group>"; };
+		880D9F672018C38B0081CAD0 /* BattleTextures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleTextures.swift; sourceTree = "<group>"; };
+		88C53F482018C54500CA8E51 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
+		88C53F4A2018C57100CA8E51 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		88C53F4C2019029B00CA8E51 /* Head.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		88C53F4E2019083700CA8E51 /* icones.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icones.xcassets; sourceTree = "<group>"; };
+		88C53F512019DEEE00CA8E51 /* incorect.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = incorect.caf; sourceTree = "<group>"; };
+		88C53F532019DFA900CA8E51 /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
+		88C53F552019DFC100CA8E51 /* fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fx.swift; sourceTree = "<group>"; };
+		88C53F57201A125600CA8E51 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880D9EF72018B4DB0081CAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880D9EF12018B4DB0081CAD0 = {
+			isa = PBXGroup;
+			children = (
+				880D9EFC2018B4DB0081CAD0 /* Clash Hero */,
+				880D9EFB2018B4DB0081CAD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880D9EFB2018B4DB0081CAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880D9EFA2018B4DB0081CAD0 /* Clash Hero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880D9EFC2018B4DB0081CAD0 /* Clash Hero */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F502019DEDF00CA8E51 /* fx */,
+				880D9F662018C37A0081CAD0 /* battle */,
+				880D9F152018B4F90081CAD0 /* Hero */,
+				880D9EFD2018B4DB0081CAD0 /* AppDelegate.swift */,
+				880D9F052018B4DB0081CAD0 /* GameViewController.swift */,
+				88C53F4A2018C57100CA8E51 /* Layout.swift */,
+				880D9F072018B4DB0081CAD0 /* Main.storyboard */,
+				880D9F0A2018B4DB0081CAD0 /* Assets.xcassets */,
+				880D9F0C2018B4DB0081CAD0 /* LaunchScreen.storyboard */,
+				880D9F0F2018B4DB0081CAD0 /* Info.plist */,
+			);
+			path = "Clash Hero";
+			sourceTree = "<group>";
+		};
+		880D9F152018B4F90081CAD0 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F4E2019083700CA8E51 /* icones.xcassets */,
+				88C53F57201A125600CA8E51 /* Hero.swift */,
+				880D9F162018B50D0081CAD0 /* HeroProperties.swift */,
+				880D9F182018B6580081CAD0 /* HeroTextures.swift */,
+				880D9F1A2018B7720081CAD0 /* anye_0 */,
+				880D9F1B2018B7720081CAD0 /* chuan_0 */,
+				880D9F1C2018B7720081CAD0 /* chuan_2 */,
+				880D9F1D2018B7720081CAD0 /* deathking_0 */,
+				880D9F1E2018B7720081CAD0 /* deathking_2 */,
+				880D9F1F2018B7720081CAD0 /* doubledragon_0 */,
+				880D9F202018B7720081CAD0 /* doubledragon_2 */,
+				880D9F212018B7720081CAD0 /* engineer_0 */,
+				880D9F222018B7720081CAD0 /* gladiator_0 */,
+				880D9F232018B7720081CAD0 /* hanbing_0 */,
+				880D9F242018B7720081CAD0 /* icedragon_0 */,
+				880D9F252018B7720081CAD0 /* icedragon_2 */,
+				880D9F262018B7720081CAD0 /* lianjin_0 */,
+				880D9F272018B7720081CAD0 /* meidusha_0 */,
+				880D9F282018B7720081CAD0 /* meidusha_2 */,
+				880D9F292018B7720081CAD0 /* najia_0 */,
+				880D9F2A2018B7720081CAD0 /* nangua_0 */,
+				880D9F2B2018B7720081CAD0 /* nangua_2 */,
+				880D9F2C2018B7720081CAD0 /* ngnw_0 */,
+				880D9F2D2018B7720081CAD0 /* ngnw_2 */,
+				880D9F2E2018B7720081CAD0 /* nightkiller_0 */,
+				880D9F2F2018B7720081CAD0 /* predator_0 */,
+				880D9F302018B7720081CAD0 /* qiubite_0 */,
+				880D9F312018B7720081CAD0 /* qiubite_2 */,
+				880D9F322018B7720081CAD0 /* qrjfs_0 */,
+				880D9F332018B7720081CAD0 /* qrjfs_2 */,
+				880D9F342018B7720081CAD0 /* sage_0 */,
+				880D9F352018B7720081CAD0 /* santa_0 */,
+				880D9F362018B7720081CAD0 /* santa_2 */,
+				880D9F372018B7720081CAD0 /* skeletonking_0 */,
+				880D9F382018B7720081CAD0 /* skeletonking_2 */,
+				880D9F392018B7720081CAD0 /* stlong_0 */,
+				880D9F3A2018B7720081CAD0 /* stlong_2 */,
+				880D9F3B2018B7720081CAD0 /* wolfman_0 */,
+				880D9F3C2018B7720081CAD0 /* xxg_0 */,
+				880D9F3D2018B7720081CAD0 /* xxg_2 */,
+				880D9F3E2018B7720081CAD0 /* zhongjia_0 */,
+				880D9F3F2018B7720081CAD0 /* zhongjia_2 */,
+			);
+			name = Hero;
+			sourceTree = "<group>";
+		};
+		880D9F662018C37A0081CAD0 /* battle */ = {
+			isa = PBXGroup;
+			children = (
+				880D9F672018C38B0081CAD0 /* BattleTextures.swift */,
+				88C53F482018C54500CA8E51 /* BattleScene.swift */,
+				88C53F4C2019029B00CA8E51 /* Head.swift */,
+			);
+			name = battle;
+			sourceTree = "<group>";
+		};
+		88C53F502019DEDF00CA8E51 /* fx */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F532019DFA900CA8E51 /* click.caf */,
+				88C53F512019DEEE00CA8E51 /* incorect.caf */,
+				88C53F552019DFC100CA8E51 /* fx.swift */,
+			);
+			name = fx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880D9EF92018B4DB0081CAD0 /* Clash Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D9F122018B4DB0081CAD0 /* Build configuration list for PBXNativeTarget "Clash Hero" */;
+			buildPhases = (
+				880D9EF62018B4DB0081CAD0 /* Sources */,
+				880D9EF72018B4DB0081CAD0 /* Frameworks */,
+				880D9EF82018B4DB0081CAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clash Hero";
+			productName = "Clash Hero";
+			productReference = 880D9EFA2018B4DB0081CAD0 /* Clash Hero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880D9EF22018B4DB0081CAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Antoine FeuFeu";
+				TargetAttributes = {
+					880D9EF92018B4DB0081CAD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76BYA9T7S3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 880D9EF52018B4DB0081CAD0 /* Build configuration list for PBXProject "Clash Hero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880D9EF12018B4DB0081CAD0;
+			productRefGroup = 880D9EFB2018B4DB0081CAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880D9EF92018B4DB0081CAD0 /* Clash Hero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880D9EF82018B4DB0081CAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D9F592018B7720081CAD0 /* qrjfs_2 in Resources */,
+				88C53F542019DFA900CA8E51 /* click.caf in Resources */,
+				880D9F492018B7720081CAD0 /* hanbing_0 in Resources */,
+				880D9F412018B7720081CAD0 /* chuan_0 in Resources */,
+				880D9F642018B7720081CAD0 /* zhongjia_0 in Resources */,
+				88C53F4F2019083700CA8E51 /* icones.xcassets in Resources */,
+				880D9F462018B7720081CAD0 /* doubledragon_2 in Resources */,
+				880D9F092018B4DB0081CAD0 /* Main.storyboard in Resources */,
+				880D9F4B2018B7720081CAD0 /* icedragon_2 in Resources */,
+				880D9F4A2018B7720081CAD0 /* icedragon_0 in Resources */,
+				88C53F522019DEEE00CA8E51 /* incorect.caf in Resources */,
+				880D9F512018B7720081CAD0 /* nangua_2 in Resources */,
+				880D9F522018B7720081CAD0 /* ngnw_0 in Resources */,
+				880D9F432018B7720081CAD0 /* deathking_0 in Resources */,
+				880D9F442018B7720081CAD0 /* deathking_2 in Resources */,
+				880D9F5E2018B7720081CAD0 /* skeletonking_2 in Resources */,
+				880D9F482018B7720081CAD0 /* gladiator_0 in Resources */,
+				880D9F452018B7720081CAD0 /* doubledragon_0 in Resources */,
+				880D9F5D2018B7720081CAD0 /* skeletonking_0 in Resources */,
+				880D9F572018B7720081CAD0 /* qiubite_2 in Resources */,
+				880D9F552018B7720081CAD0 /* predator_0 in Resources */,
+				880D9F5C2018B7720081CAD0 /* santa_2 in Resources */,
+				880D9F4D2018B7720081CAD0 /* meidusha_0 in Resources */,
+				880D9F472018B7720081CAD0 /* engineer_0 in Resources */,
+				880D9F4F2018B7720081CAD0 /* najia_0 in Resources */,
+				880D9F0B2018B4DB0081CAD0 /* Assets.xcassets in Resources */,
+				880D9F532018B7720081CAD0 /* ngnw_2 in Resources */,
+				880D9F5B2018B7720081CAD0 /* santa_0 in Resources */,
+				880D9F542018B7720081CAD0 /* nightkiller_0 in Resources */,
+				880D9F422018B7720081CAD0 /* chuan_2 in Resources */,
+				880D9F4C2018B7720081CAD0 /* lianjin_0 in Resources */,
+				880D9F652018B7720081CAD0 /* zhongjia_2 in Resources */,
+				880D9F622018B7720081CAD0 /* xxg_0 in Resources */,
+				880D9F4E2018B7720081CAD0 /* meidusha_2 in Resources */,
+				880D9F612018B7720081CAD0 /* wolfman_0 in Resources */,
+				880D9F632018B7720081CAD0 /* xxg_2 in Resources */,
+				880D9F5F2018B7720081CAD0 /* stlong_0 in Resources */,
+				880D9F502018B7720081CAD0 /* nangua_0 in Resources */,
+				880D9F5A2018B7720081CAD0 /* sage_0 in Resources */,
+				880D9F582018B7720081CAD0 /* qrjfs_0 in Resources */,
+				880D9F602018B7720081CAD0 /* stlong_2 in Resources */,
+				880D9F562018B7720081CAD0 /* qiubite_0 in Resources */,
+				880D9F402018B7720081CAD0 /* anye_0 in Resources */,
+				880D9F0E2018B4DB0081CAD0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880D9EF62018B4DB0081CAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C53F492018C54500CA8E51 /* BattleScene.swift in Sources */,
+				880D9F172018B50D0081CAD0 /* HeroProperties.swift in Sources */,
+				880D9F062018B4DB0081CAD0 /* GameViewController.swift in Sources */,
+				880D9EFE2018B4DB0081CAD0 /* AppDelegate.swift in Sources */,
+				88C53F562019DFC100CA8E51 /* fx.swift in Sources */,
+				88C53F58201A125600CA8E51 /* Hero.swift in Sources */,
+				88C53F4B2018C57100CA8E51 /* Layout.swift in Sources */,
+				880D9F192018B6580081CAD0 /* HeroTextures.swift in Sources */,
+				880D9F682018C38B0081CAD0 /* BattleTextures.swift in Sources */,
+				88C53F4D2019029B00CA8E51 /* Head.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		880D9F072018B4DB0081CAD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D9F082018B4DB0081CAD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880D9F0C2018B4DB0081CAD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D9F0D2018B4DB0081CAD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880D9F102018B4DB0081CAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		880D9F112018B4DB0081CAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880D9F132018B4DB0081CAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76BYA9T7S3;
+				INFOPLIST_FILE = "Clash Hero/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.z-zero.Clash-Hero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		880D9F142018B4DB0081CAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76BYA9T7S3;
+				INFOPLIST_FILE = "Clash Hero/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.z-zero.Clash-Hero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880D9EF52018B4DB0081CAD0 /* Build configuration list for PBXProject "Clash Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D9F102018B4DB0081CAD0 /* Debug */,
+				880D9F112018B4DB0081CAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D9F122018B4DB0081CAD0 /* Build configuration list for PBXNativeTarget "Clash Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D9F132018B4DB0081CAD0 /* Debug */,
+				880D9F142018B4DB0081CAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880D9EF22018B4DB0081CAD0 /* Project object */;
+}
