@@ -24,10 +24,13 @@ class Head: SKSpriteNode {
         self.sprite.position.x = 4
         self.sprite.anchorPoint = CGPoint(x: 0.5, y: 0)
         //
-        self.spriteName = SKLabelNode(text: HeroTextures.textures_init[type.rawValue].1)
+        self.spriteName = SKLabelNode(fontNamed: "Herculanum")
+        self.spriteName.text = HeroTextures.textures_init[type.rawValue].1
         self.spriteName.fontColor = UIColor.black
-        self.spriteName.fontSize = 13
+        self.spriteName.fontSize = 7
         self.spriteName.position.y = -30
+        self.spriteName.verticalAlignmentMode = .bottom
+        self.spriteName.horizontalAlignmentMode = .center
         //
         super.init(texture: BattleTextures.head, color: UIColor.clear, size: BattleTextures.headSize)
         self.addChild(self.sprite)

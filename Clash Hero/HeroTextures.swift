@@ -24,36 +24,210 @@ public struct HeroTextures {
         ("hanbing_0", "demon des glaces", [5, 5, 6]),
         ("gladiator_0", "bourreau", [5, 5, 6]),
         // MARK: Epic
-        ("doubledragon_0", "voltanica", [7, 7, 7]),
-        ("xxg_0", "dracula", [7, 7, 7]),
-        ("qiubite_0", "cupid", [7, 7, 7]),
-        ("qrjfs_0", "valentina", [7, 7, 7]),
-        ("stlong_0", "moltanica", [7, 7, 7]),
-        ("zhongjia_0", "belier", [7, 7, 7]),
-        ("ngnw_0", "ducilia", [7, 7, 7]),
+        ("doubledragon_0", "voltanica", [7, 7, 7]), //
+        ("xxg_0", "dracula", [7, 7, 7]), //
+        ("qiubite_0", "cupid", [7, 7, 7]), //
+        ("qrjfs_0", "valentina", [7, 7, 7]), //
+        ("stlong_0", "moltanica", [7, 7, 7]), //
+        ("zhongjia_0", "belier", [7, 7, 7]), //
+        ("ngnw_0", "ducilia", [7, 7, 7]), //
         ("meidusha_0", "medusia", [7, 7, 7]),
-        ("icedragon_0", "artica", [7, 7, 7]),
-        ("chuan_0", "barbe blanche", [5, 5, 6]),
-        ("skeletonking_0", "skeletaur", [7, 7, 7]),
-        ("deathking_0", "roi fantome", [7, 7, 6]),
-        ("nangua_0", "citrouille", [5, 5, 6]),
-        ("santa_0", "pere noel", [7, 7, 7]),
+        ("icedragon_0", "artica", [7, 7, 7]), //
+        ("chuan_0", "barbe blanche", [5, 5, 6]), //
+        ("skeletonking_0", "skeletaur", [7, 7, 7]), //
+        ("deathking_0", "roi fantome", [7, 7, 6]), //
+        ("nangua_0", "citrouille", [5, 5, 6]), //
+        ("santa_0", "pere noel", [7, 7, 7]), //
         // MARK: Shiny
-        ("doubledragon_2", "voltanica", [7, 7, 7]),
-        ("xxg_2", "dracula", [7, 7, 7]),
-        ("qiubite_2", "cupid", [7, 7, 7]),
-        ("qrjfs_2", "valentina", [7, 7, 7]),
-        ("stlong_2", "moltanica", [7, 7, 7]),
+        ("doubledragon_2", "voltanica foudroyant", [7, 7, 7]),
+        ("xxg_2", "joke dracula", [7, 7, 7]),
+        ("qiubite_2", "cupid des bois", [7, 7, 7]),
+        ("qrjfs_2", "valentina glacee", [7, 7, 7]),
+        ("stlong_2", "moltanica ancien", [7, 7, 7]),
         ("zhongjia_2", "belier rockeur", [7, 7, 7]),
-        ("ngnw_2", "ducilia", [7, 7, 7]),
-        ("meidusha_2", "medusia", [7, 7, 7]),
-        ("icedragon_2", "arctica boisé", [7, 7, 7]),
+        ("ngnw_2", "reine ducilia", [7, 7, 7]),
+        ("meidusha_2", "meduse", [7, 7, 7]),
+        ("icedragon_2", "dragon boisé", [7, 7, 7]),
         ("chuan_2", "poulpe blanc", [7, 7, 6]),
-        ("skeletonking_2", "chevalier de la mort", [7, 7, 7]),
-        ("deathking_2", "roi de la lanterne", [7, 7, 7]),
+        ("skeletonking_2", "skeletaur spartiate", [7, 7, 7]),
+        ("deathking_2", "roi des lanternes", [7, 7, 7]),
         ("nangua_2", "star citrouille", [7, 7, 7]),
-        ("santa_2", "super pere noel", [7, 7, 9])
+        ("santa_2", "papa noel", [7, 7, 9])
     ]
+    static let ability_args: [[[CVarArg]]] = [
+        [[150, 3]],
+        [[100], [25, 3]],
+        [[20]],
+        [[300]],
+        //
+        [[3, 35], [5]],
+        [[400]],
+        [[5], [3, 100]],
+        [[25], [3]],
+        [[300]],
+        //
+        [[5, 1500], [80, 10], [5]],
+        [[]],
+        [[60], [5]],
+        [[], [1, 5]],
+        [[], [150], [90], [5, 6]],
+        [[]],
+        [[300, 5], [2], [], [4]],
+        [[2], [150, 100]],
+        [[2], [10]],
+        [[2, 70], [150, 5], [3]],
+        [[500, 8], [15000], [10]],
+        [[230], [1]],
+        [[45], [6]],
+        [[900], [3, 5]],
+        //
+        [[5, 1500], [80, 10], [5]],
+        [[]],
+        [[60], [5]],
+        [[], [1, 5]],
+        [[], [150], [90], [5, 6]],
+        [[]],
+        [[300, 5], [2], [], [4]],
+        [[2], [150, 100]],
+        [[2], [10]],
+        [[2, 70], [150, 5], [3]],
+        [[500, 8], [15000], [10]],
+        [[230], [1]],
+        [[45], [6]],
+        [[900], [3, 5]]
+    ]
+    static let ability_description: [[String]] = [
+        ["inflige %d%% atk a %d cibles proche"],
+        ["inflige %d%% atk a une cible proche,", "reduit sa vit atk de %d%% pendant %d secondes"],
+        ["reduit les degats recu de %d%%"],
+        ["inflige %d%% atk a une cible aleatoire"],
+        //
+        ["pendant %d secondes, augmente vit atk de %d%%", "recuperation %d secondes"],
+        ["inflige %d%% atk a une cible en face"],
+        ["pendant %d secondes, empoisone les enemies", "leur infligeant %d%% de leur pv total et %d%% atk"],
+        ["reduit vit akt et vit dep de %d%%", "a tout les enemies pendant %d secondes"],
+        ["inflige %d%% atk a tout les cibles dans une zone"],
+        //
+        ["pendant %d secondes inflige un total de %d%% atk", "augmente son esquive de %d%% et recupere %d%% de pv", "recuperation %d secondes"],
+        ["convoque des chauve souris"],
+        ["monte l energie au max et augmente de %d%% atk", "de tout les alliers recuperation %d secondes"],
+        ["tous les heros allier proche beneficie de", "+1 d energie toutes les %d secondes durant %d secondes"],
+        ["crache le feu destructeur sur ses enemies", "leur infligeant %d%% atk et reduisant", "atk, vit atk et vit dep par %d%%",
+         "pendant %d secondes recuperation %d secondes"],
+        ["scelle l abilitee d un hero enemie aleatoire"],
+        ["inflige %d%% atk a %d enemies aleatoires", "invoque %d ducitrouilles", "les ducitrouilles reduisent l energie de 1",
+         "recuperation %d secondes"],
+        ["petrifie pendant %d secondes un enemie aleatoire", "causant %d atk et recupere %d%% atk de ses pv"],
+        ["gel les enemies en face pendant %d secondes", "causant %d%% de deg des pv total"],
+        ["pendant %d secondes reduit les deg recu de %d%%", "et inflige %d%% atk a %d cibles aleatoires", "recuperation %d secondes"],
+        ["augmente atk de %d%% pendant %d secondes", "et limite les degats recu par %d", "recuperation %d secondes"],
+        ["inflige %d%% atk a une cible proche", "et reduit son energie de %d"],
+        ["augment atk, vit atk, vit dep de %d%%", "pendant %d secondes"],
+        ["inflige %d%% atk sur une zone aleatoire", "pendant %d secondes recuperation %d secondes"],
+        //
+        ["pendant %d secondes inflige un total de %d%% atk", "augmente son esquive de %d%% et recupere %d%% de pv", "recuperation %d secondes"],
+        ["convoque des chauve souris"],
+        ["monte l energie au max et augmente de %d%% atk", "de tout les alliers recuperation %d secondes"],
+        ["tous les heros allier proche beneficie de", "+1 d energie toutes les %d secondes durant %d secondes"],
+        ["crache le feu destructeur sur ses enemies", "leur infligeant %d%% atk et reduisant", "atk, vit atk et vit dep par %d%%",
+         "pendant %d secondes recuperation %d secondes"],
+        ["scelle l abilitee d un hero enemie aleatoire"],
+        ["inflige %d%% atk a %d enemies aleatoires", "invoque %d ducitrouilles", "les ducitrouilles reduisent l energie de 1",
+         "recuperation %d secondes"],
+        ["petrifie pendant %d secondes un enemie aleatoire", "causant %d atk et recupere %d%% atk de ses pv"],
+        ["gel les enemies en face pendant %d secondes", "causant %d%% de deg des pv total"],
+        ["pendant %d secondes reduit les deg recu de %d%%", "et inflige %d%% atk a %d cibles aleatoires", "recuperation %d secondes"],
+        ["augmente atk de %d%% pendant %d secondes", "et limite les degats recu par %d", "recuperation %d secondes"],
+        ["inflige %d%% atk a une cible proche", "et reduit son energie de %d"],
+        ["augment atk, vit atk, vit dep de %d%%", "pendant %d secondes"],
+        ["inflige %d%% atk sur une zone aleatoire", "pendant %d secondes recuperation %d secondes"]
+    ]
+    static let ability_name: [String] = [
+        "Fleches fendeuse",
+        "Eclat givrant",
+        "Technique",
+        "Plan B",
+        //
+        "Enrage",
+        "Coup bas",
+        "Empoisonement",
+        "Brouillard",
+        "Choc",
+        //
+        "Haute tension",
+        "Appel",
+        "La fleche de cupid",
+        "Don d'amour",
+        "Souffle destructeur",
+        "Scellation",
+        "Sinistre Farce",
+        "Sortilege",
+        "Souffle de givre",
+        "Surprise",
+        "Vengeance",
+        "Lumi eclats",
+        "Rite endiablee",
+        "Cadeau explosif",//
+        "Haute tension",
+        "Appel",
+        "La fleche de cupid",
+        "Don d'amour",
+        "Souffle destructeur",
+        "Scellation",
+        "Sinistre Farce",
+        "Sortilege",
+        "Souffle de givre",
+        "Surprise",
+        "Vengeance",
+        "Lumi eclats",
+        "Rite endiablee",
+        "Cadeau explosif"
+    ]
+    
+    
+    static let ability_icon: [SKTexture] = [
+        SKTexture.init(imageNamed: "121"),
+        SKTexture.init(imageNamed: "221"),
+        SKTexture.init(imageNamed: "381"),
+        SKTexture.init(imageNamed: "201"),
+        //
+        SKTexture.init(imageNamed: "141"),
+        SKTexture.init(imageNamed: "101"),
+        SKTexture.init(imageNamed: "401-1"),
+        SKTexture.init(imageNamed: "461"),
+        SKTexture.init(imageNamed: "21"),
+        //
+        SKTexture.init(imageNamed: "10007"),
+        SKTexture.init(imageNamed: "601"),
+        SKTexture.init(imageNamed: "501"),
+        SKTexture.init(imageNamed: "981"),
+        SKTexture.init(imageNamed: "591"),
+        SKTexture.init(imageNamed: "571"),
+        SKTexture.init(imageNamed: "10008"),
+        SKTexture.init(imageNamed: "10006"),
+        SKTexture.init(imageNamed: "961"),
+        SKTexture.init(imageNamed: "891"),
+        SKTexture.init(imageNamed: "881"),
+        SKTexture.init(imageNamed: "10001"),
+        SKTexture.init(imageNamed: "441"),
+        SKTexture.init(imageNamed: "651"),
+        //
+        SKTexture.init(imageNamed: "10007"),
+        SKTexture.init(imageNamed: "601"),
+        SKTexture.init(imageNamed: "501"),
+        SKTexture.init(imageNamed: "981"),
+        SKTexture.init(imageNamed: "591"),
+        SKTexture.init(imageNamed: "571"),
+        SKTexture.init(imageNamed: "10008"),
+        SKTexture.init(imageNamed: "10006"),
+        SKTexture.init(imageNamed: "961"),
+        SKTexture.init(imageNamed: "891"),
+        SKTexture.init(imageNamed: "881"),
+        SKTexture.init(imageNamed: "10001"),
+        SKTexture.init(imageNamed: "441"),
+        SKTexture.init(imageNamed: "651"),
+    ]
+    
     static var textures: [[[[SKTexture]]]]? = nil
     static let small_icon: [SKTexture] = [
         SKTexture.init(imageNamed: "311_s"),
@@ -139,7 +313,6 @@ public struct HeroTextures {
         SKTexture.init(imageNamed: "30531"),
         SKTexture.init(imageNamed: "30781")
     ]
-
     
     init() {
         HeroTextures.textures = [[[[SKTexture]]]]()

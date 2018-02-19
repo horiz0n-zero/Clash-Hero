@@ -13,16 +13,26 @@ import GameplayKit
 class GameViewController: UIViewController {
 
     var layout: Layout!
+    var saver: Saver!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         _ = HeroTextures()
         
+        
         if let view = self.view as! SKView? {
             self.layout = Layout(size: view.frame.size)
-            
-            let scene = BattleScene(layout: self.layout)
+            if FileManager.default.fileExists(atPath: self.layout.documents_save) == false {
+                FileManager.default.createFile(atPath: self.layout.documents_save, contents: nil, attributes: nil)
+                self.saver = Saver()
+                self.saver.save(byWritingAt: self.layout.documents_save)
+            }
+            else {
+                self.saver = Saver(byReadingAt: self.layout.documents_save)
+            }
+            //let scene = BattleScene(layout: self.layout)
+            let scene = WireScene(layout: self.layout, saver: self.saver)
             
             view.showsFPS = true
             view.showsNodeCount = true

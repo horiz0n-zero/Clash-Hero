@@ -53,6 +53,10 @@
 		880D9F642018B7720081CAD0 /* zhongjia_0 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3E2018B7720081CAD0 /* zhongjia_0 */; };
 		880D9F652018B7720081CAD0 /* zhongjia_2 in Resources */ = {isa = PBXBuildFile; fileRef = 880D9F3F2018B7720081CAD0 /* zhongjia_2 */; };
 		880D9F682018C38B0081CAD0 /* BattleTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D9F672018C38B0081CAD0 /* BattleTextures.swift */; };
+		88438C7E2023087D00DE838F /* broken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88438C7D2023087D00DE838F /* broken.mp3 */; };
+		88438C812023105900DE838F /* physicsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88438C802023105900DE838F /* physicsNode.swift */; };
+		88438C832023111D00DE838F /* physicsMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88438C822023111D00DE838F /* physicsMask.swift */; };
+		88438C85202311B000DE838F /* physicsInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88438C84202311B000DE838F /* physicsInit.swift */; };
 		88C53F492018C54500CA8E51 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F482018C54500CA8E51 /* BattleScene.swift */; };
 		88C53F4B2018C57100CA8E51 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F4A2018C57100CA8E51 /* Layout.swift */; };
 		88C53F4D2019029B00CA8E51 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F4C2019029B00CA8E51 /* Head.swift */; };
@@ -61,6 +65,37 @@
 		88C53F542019DFA900CA8E51 /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F532019DFA900CA8E51 /* click.caf */; };
 		88C53F562019DFC100CA8E51 /* fx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F552019DFC100CA8E51 /* fx.swift */; };
 		88C53F58201A125600CA8E51 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F57201A125600CA8E51 /* Hero.swift */; };
+		88C53F5B201B1D9300CA8E51 /* WireScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F5A201B1D9300CA8E51 /* WireScene.swift */; };
+		88C53F5D201B1DD900CA8E51 /* Wire.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F5C201B1DD900CA8E51 /* Wire.xcassets */; };
+		88C53F5F201B236700CA8E51 /* Get_Hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F5E201B236700CA8E51 /* Get_Hero.mp3 */; };
+		88C53F61201B244C00CA8E51 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F60201B244C00CA8E51 /* utility.swift */; };
+		88C53F63201B39F500CA8E51 /* wire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F62201B39F500CA8E51 /* wire.sks */; };
+		88C53F65201B504200CA8E51 /* Herculanum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F64201B504200CA8E51 /* Herculanum.ttf */; };
+		88C53F67201B66AE00CA8E51 /* Saver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F66201B66AE00CA8E51 /* Saver.swift */; };
+		88C53F6A201BA14100CA8E51 /* HeroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F69201BA14100CA8E51 /* HeroScene.swift */; };
+		88C53F6C201BC11D00CA8E51 /* HeroPresentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F6B201BC11D00CA8E51 /* HeroPresentScene.swift */; };
+		88C53F6E201BCB7A00CA8E51 /* HeroHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F6D201BCB7A00CA8E51 /* HeroHead.swift */; };
+		88C53F70201C895F00CA8E51 /* Selected.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F6F201C895F00CA8E51 /* Selected.mp3 */; };
+		88C53F72201C8A4500CA8E51 /* Make_War.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F71201C8A4500CA8E51 /* Make_War.mp3 */; };
+		88C53F74201C8AA500CA8E51 /* click_button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F73201C8AA500CA8E51 /* click_button.mp3 */; };
+		88C53F76201CA44600CA8E51 /* present.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F75201CA44600CA8E51 /* present.xcassets */; };
+		88C53F78201CC9C500CA8E51 /* present.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F77201CC9C500CA8E51 /* present.sks */; };
+		88C53F7A20206CE700CA8E51 /* BattleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F7920206CE700CA8E51 /* BattleTile.swift */; };
+		88C53F7C20206E2A00CA8E51 /* DecoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F7B20206E2A00CA8E51 /* DecoNode.swift */; };
+		88C53F7E20206E4C00CA8E51 /* battle.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F7D20206E4C00CA8E51 /* battle.xcassets */; };
+		88C53F8120207F1000CA8E51 /* Building.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F8020207F1000CA8E51 /* Building.xcassets */; };
+		88C53F832020A07800CA8E51 /* CristalNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F822020A07800CA8E51 /* CristalNode.swift */; };
+		88C53F862020A15800CA8E51 /* side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F852020A15800CA8E51 /* side.swift */; };
+		88C53F882020A91900CA8E51 /* Cristal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F872020A91900CA8E51 /* Cristal.sks */; };
+		88C53F8A2020AEDB00CA8E51 /* TowerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F892020AEDB00CA8E51 /* TowerNode.swift */; };
+		88C53F8C2020D45F00CA8E51 /* destroyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F8B2020D45F00CA8E51 /* destroyable.swift */; };
+		88C53F902020D9D200CA8E51 /* creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F8F2020D9D200CA8E51 /* creature.swift */; };
+		88C53F922020DCFA00CA8E51 /* attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F912020DCFA00CA8E51 /* attack.swift */; };
+		88C53F942020E20B00CA8E51 /* move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F932020E20B00CA8E51 /* move.swift */; };
+		88C53F962020E2BA00CA8E51 /* heroSelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F952020E2BA00CA8E51 /* heroSelectable.swift */; };
+		88C53F992021F81700CA8E51 /* spawn_death.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C53F982021F81700CA8E51 /* spawn_death.swift */; };
+		88C53F9D2021FAB300CA8E51 /* textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F9C2021FAB300CA8E51 /* textures.xcassets */; };
+		88C53F9F2021FCB600CA8E51 /* setHero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88C53F9E2021FCB600CA8E51 /* setHero.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +147,10 @@
 		880D9F3E2018B7720081CAD0 /* zhongjia_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zhongjia_0; sourceTree = "<group>"; };
 		880D9F3F2018B7720081CAD0 /* zhongjia_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zhongjia_2; sourceTree = "<group>"; };
 		880D9F672018C38B0081CAD0 /* BattleTextures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleTextures.swift; sourceTree = "<group>"; };
+		88438C7D2023087D00DE838F /* broken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = broken.mp3; sourceTree = "<group>"; };
+		88438C802023105900DE838F /* physicsNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physicsNode.swift; sourceTree = "<group>"; };
+		88438C822023111D00DE838F /* physicsMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physicsMask.swift; sourceTree = "<group>"; };
+		88438C84202311B000DE838F /* physicsInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physicsInit.swift; sourceTree = "<group>"; };
 		88C53F482018C54500CA8E51 /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
 		88C53F4A2018C57100CA8E51 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		88C53F4C2019029B00CA8E51 /* Head.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
@@ -120,6 +159,37 @@
 		88C53F532019DFA900CA8E51 /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
 		88C53F552019DFC100CA8E51 /* fx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fx.swift; sourceTree = "<group>"; };
 		88C53F57201A125600CA8E51 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		88C53F5A201B1D9300CA8E51 /* WireScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireScene.swift; sourceTree = "<group>"; };
+		88C53F5C201B1DD900CA8E51 /* Wire.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Wire.xcassets; sourceTree = "<group>"; };
+		88C53F5E201B236700CA8E51 /* Get_Hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Get_Hero.mp3; sourceTree = "<group>"; };
+		88C53F60201B244C00CA8E51 /* utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
+		88C53F62201B39F500CA8E51 /* wire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = wire.sks; sourceTree = "<group>"; };
+		88C53F64201B504200CA8E51 /* Herculanum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Herculanum.ttf; sourceTree = "<group>"; };
+		88C53F66201B66AE00CA8E51 /* Saver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saver.swift; sourceTree = "<group>"; };
+		88C53F69201BA14100CA8E51 /* HeroScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroScene.swift; sourceTree = "<group>"; };
+		88C53F6B201BC11D00CA8E51 /* HeroPresentScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroPresentScene.swift; sourceTree = "<group>"; };
+		88C53F6D201BCB7A00CA8E51 /* HeroHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroHead.swift; sourceTree = "<group>"; };
+		88C53F6F201C895F00CA8E51 /* Selected.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Selected.mp3; sourceTree = "<group>"; };
+		88C53F71201C8A4500CA8E51 /* Make_War.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Make_War.mp3; sourceTree = "<group>"; };
+		88C53F73201C8AA500CA8E51 /* click_button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click_button.mp3; sourceTree = "<group>"; };
+		88C53F75201CA44600CA8E51 /* present.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = present.xcassets; sourceTree = "<group>"; };
+		88C53F77201CC9C500CA8E51 /* present.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = present.sks; sourceTree = "<group>"; };
+		88C53F7920206CE700CA8E51 /* BattleTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleTile.swift; sourceTree = "<group>"; };
+		88C53F7B20206E2A00CA8E51 /* DecoNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoNode.swift; sourceTree = "<group>"; };
+		88C53F7D20206E4C00CA8E51 /* battle.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = battle.xcassets; sourceTree = "<group>"; };
+		88C53F8020207F1000CA8E51 /* Building.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Building.xcassets; sourceTree = "<group>"; };
+		88C53F822020A07800CA8E51 /* CristalNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CristalNode.swift; sourceTree = "<group>"; };
+		88C53F852020A15800CA8E51 /* side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = side.swift; sourceTree = "<group>"; };
+		88C53F872020A91900CA8E51 /* Cristal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cristal.sks; sourceTree = "<group>"; };
+		88C53F892020AEDB00CA8E51 /* TowerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowerNode.swift; sourceTree = "<group>"; };
+		88C53F8B2020D45F00CA8E51 /* destroyable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = destroyable.swift; sourceTree = "<group>"; };
+		88C53F8F2020D9D200CA8E51 /* creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = creature.swift; sourceTree = "<group>"; };
+		88C53F912020DCFA00CA8E51 /* attack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = attack.swift; sourceTree = "<group>"; };
+		88C53F932020E20B00CA8E51 /* move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = move.swift; sourceTree = "<group>"; };
+		88C53F952020E2BA00CA8E51 /* heroSelectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heroSelectable.swift; sourceTree = "<group>"; };
+		88C53F982021F81700CA8E51 /* spawn_death.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spawn_death.swift; sourceTree = "<group>"; };
+		88C53F9C2021FAB300CA8E51 /* textures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = textures.xcassets; sourceTree = "<group>"; };
+		88C53F9E2021FCB600CA8E51 /* setHero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = setHero.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,16 +222,24 @@
 		880D9EFC2018B4DB0081CAD0 /* Clash Hero */ = {
 			isa = PBXGroup;
 			children = (
+				88438C7F2023102700DE838F /* physics */,
+				88C53F972021F7FF00CA8E51 /* actions */,
+				88C53F842020A13E00CA8E51 /* Protocol */,
+				88C53F7F20207F0700CA8E51 /* Building */,
+				88C53F68201BA13500CA8E51 /* HeroScene */,
 				88C53F502019DEDF00CA8E51 /* fx */,
+				88C53F59201B1D8000CA8E51 /* wire */,
 				880D9F662018C37A0081CAD0 /* battle */,
 				880D9F152018B4F90081CAD0 /* Hero */,
 				880D9EFD2018B4DB0081CAD0 /* AppDelegate.swift */,
 				880D9F052018B4DB0081CAD0 /* GameViewController.swift */,
 				88C53F4A2018C57100CA8E51 /* Layout.swift */,
+				88C53F66201B66AE00CA8E51 /* Saver.swift */,
 				880D9F072018B4DB0081CAD0 /* Main.storyboard */,
 				880D9F0A2018B4DB0081CAD0 /* Assets.xcassets */,
 				880D9F0C2018B4DB0081CAD0 /* LaunchScreen.storyboard */,
 				880D9F0F2018B4DB0081CAD0 /* Info.plist */,
+				88C53F60201B244C00CA8E51 /* utility.swift */,
 			);
 			path = "Clash Hero";
 			sourceTree = "<group>";
@@ -221,18 +299,93 @@
 				880D9F672018C38B0081CAD0 /* BattleTextures.swift */,
 				88C53F482018C54500CA8E51 /* BattleScene.swift */,
 				88C53F4C2019029B00CA8E51 /* Head.swift */,
+				88C53F7920206CE700CA8E51 /* BattleTile.swift */,
+				88C53F7B20206E2A00CA8E51 /* DecoNode.swift */,
+				88C53F7D20206E4C00CA8E51 /* battle.xcassets */,
+				88C53F872020A91900CA8E51 /* Cristal.sks */,
 			);
 			name = battle;
+			sourceTree = "<group>";
+		};
+		88438C7F2023102700DE838F /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				88438C802023105900DE838F /* physicsNode.swift */,
+				88438C822023111D00DE838F /* physicsMask.swift */,
+				88438C84202311B000DE838F /* physicsInit.swift */,
+			);
+			name = physics;
 			sourceTree = "<group>";
 		};
 		88C53F502019DEDF00CA8E51 /* fx */ = {
 			isa = PBXGroup;
 			children = (
+				88438C7D2023087D00DE838F /* broken.mp3 */,
+				88C53F5E201B236700CA8E51 /* Get_Hero.mp3 */,
 				88C53F532019DFA900CA8E51 /* click.caf */,
+				88C53F9E2021FCB600CA8E51 /* setHero.mp3 */,
 				88C53F512019DEEE00CA8E51 /* incorect.caf */,
+				88C53F73201C8AA500CA8E51 /* click_button.mp3 */,
+				88C53F71201C8A4500CA8E51 /* Make_War.mp3 */,
+				88C53F6F201C895F00CA8E51 /* Selected.mp3 */,
 				88C53F552019DFC100CA8E51 /* fx.swift */,
 			);
 			name = fx;
+			sourceTree = "<group>";
+		};
+		88C53F59201B1D8000CA8E51 /* wire */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F64201B504200CA8E51 /* Herculanum.ttf */,
+				88C53F5A201B1D9300CA8E51 /* WireScene.swift */,
+				88C53F62201B39F500CA8E51 /* wire.sks */,
+				88C53F5C201B1DD900CA8E51 /* Wire.xcassets */,
+			);
+			name = wire;
+			sourceTree = "<group>";
+		};
+		88C53F68201BA13500CA8E51 /* HeroScene */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F69201BA14100CA8E51 /* HeroScene.swift */,
+				88C53F6B201BC11D00CA8E51 /* HeroPresentScene.swift */,
+				88C53F6D201BCB7A00CA8E51 /* HeroHead.swift */,
+				88C53F75201CA44600CA8E51 /* present.xcassets */,
+				88C53F77201CC9C500CA8E51 /* present.sks */,
+			);
+			name = HeroScene;
+			sourceTree = "<group>";
+		};
+		88C53F7F20207F0700CA8E51 /* Building */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F822020A07800CA8E51 /* CristalNode.swift */,
+				88C53F892020AEDB00CA8E51 /* TowerNode.swift */,
+				88C53F8020207F1000CA8E51 /* Building.xcassets */,
+			);
+			name = Building;
+			sourceTree = "<group>";
+		};
+		88C53F842020A13E00CA8E51 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F852020A15800CA8E51 /* side.swift */,
+				88C53F8B2020D45F00CA8E51 /* destroyable.swift */,
+				88C53F8F2020D9D200CA8E51 /* creature.swift */,
+				88C53F912020DCFA00CA8E51 /* attack.swift */,
+				88C53F932020E20B00CA8E51 /* move.swift */,
+				88C53F952020E2BA00CA8E51 /* heroSelectable.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		88C53F972021F7FF00CA8E51 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				88C53F982021F81700CA8E51 /* spawn_death.swift */,
+				88C53F9C2021FAB300CA8E51 /* textures.xcassets */,
+			);
+			name = actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,14 +448,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C53F78201CC9C500CA8E51 /* present.sks in Resources */,
 				880D9F592018B7720081CAD0 /* qrjfs_2 in Resources */,
 				88C53F542019DFA900CA8E51 /* click.caf in Resources */,
 				880D9F492018B7720081CAD0 /* hanbing_0 in Resources */,
 				880D9F412018B7720081CAD0 /* chuan_0 in Resources */,
+				88C53F8120207F1000CA8E51 /* Building.xcassets in Resources */,
 				880D9F642018B7720081CAD0 /* zhongjia_0 in Resources */,
 				88C53F4F2019083700CA8E51 /* icones.xcassets in Resources */,
 				880D9F462018B7720081CAD0 /* doubledragon_2 in Resources */,
+				88438C7E2023087D00DE838F /* broken.mp3 in Resources */,
 				880D9F092018B4DB0081CAD0 /* Main.storyboard in Resources */,
+				88C53F9F2021FCB600CA8E51 /* setHero.mp3 in Resources */,
 				880D9F4B2018B7720081CAD0 /* icedragon_2 in Resources */,
 				880D9F4A2018B7720081CAD0 /* icedragon_0 in Resources */,
 				88C53F522019DEEE00CA8E51 /* incorect.caf in Resources */,
@@ -312,8 +469,14 @@
 				880D9F442018B7720081CAD0 /* deathking_2 in Resources */,
 				880D9F5E2018B7720081CAD0 /* skeletonking_2 in Resources */,
 				880D9F482018B7720081CAD0 /* gladiator_0 in Resources */,
+				88C53F9D2021FAB300CA8E51 /* textures.xcassets in Resources */,
+				88C53F72201C8A4500CA8E51 /* Make_War.mp3 in Resources */,
+				88C53F882020A91900CA8E51 /* Cristal.sks in Resources */,
 				880D9F452018B7720081CAD0 /* doubledragon_0 in Resources */,
 				880D9F5D2018B7720081CAD0 /* skeletonking_0 in Resources */,
+				88C53F63201B39F500CA8E51 /* wire.sks in Resources */,
+				88C53F5F201B236700CA8E51 /* Get_Hero.mp3 in Resources */,
+				88C53F7E20206E4C00CA8E51 /* battle.xcassets in Resources */,
 				880D9F572018B7720081CAD0 /* qiubite_2 in Resources */,
 				880D9F552018B7720081CAD0 /* predator_0 in Resources */,
 				880D9F5C2018B7720081CAD0 /* santa_2 in Resources */,
@@ -323,7 +486,11 @@
 				880D9F0B2018B4DB0081CAD0 /* Assets.xcassets in Resources */,
 				880D9F532018B7720081CAD0 /* ngnw_2 in Resources */,
 				880D9F5B2018B7720081CAD0 /* santa_0 in Resources */,
+				88C53F70201C895F00CA8E51 /* Selected.mp3 in Resources */,
+				88C53F65201B504200CA8E51 /* Herculanum.ttf in Resources */,
+				88C53F74201C8AA500CA8E51 /* click_button.mp3 in Resources */,
 				880D9F542018B7720081CAD0 /* nightkiller_0 in Resources */,
+				88C53F5D201B1DD900CA8E51 /* Wire.xcassets in Resources */,
 				880D9F422018B7720081CAD0 /* chuan_2 in Resources */,
 				880D9F4C2018B7720081CAD0 /* lianjin_0 in Resources */,
 				880D9F652018B7720081CAD0 /* zhongjia_2 in Resources */,
@@ -333,6 +500,7 @@
 				880D9F632018B7720081CAD0 /* xxg_2 in Resources */,
 				880D9F5F2018B7720081CAD0 /* stlong_0 in Resources */,
 				880D9F502018B7720081CAD0 /* nangua_0 in Resources */,
+				88C53F76201CA44600CA8E51 /* present.xcassets in Resources */,
 				880D9F5A2018B7720081CAD0 /* sage_0 in Resources */,
 				880D9F582018B7720081CAD0 /* qrjfs_0 in Resources */,
 				880D9F602018B7720081CAD0 /* stlong_2 in Resources */,
@@ -349,16 +517,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C53F61201B244C00CA8E51 /* utility.swift in Sources */,
+				88438C85202311B000DE838F /* physicsInit.swift in Sources */,
 				88C53F492018C54500CA8E51 /* BattleScene.swift in Sources */,
 				880D9F172018B50D0081CAD0 /* HeroProperties.swift in Sources */,
 				880D9F062018B4DB0081CAD0 /* GameViewController.swift in Sources */,
+				88C53F8C2020D45F00CA8E51 /* destroyable.swift in Sources */,
+				88C53F6A201BA14100CA8E51 /* HeroScene.swift in Sources */,
 				880D9EFE2018B4DB0081CAD0 /* AppDelegate.swift in Sources */,
+				88C53F6C201BC11D00CA8E51 /* HeroPresentScene.swift in Sources */,
 				88C53F562019DFC100CA8E51 /* fx.swift in Sources */,
 				88C53F58201A125600CA8E51 /* Hero.swift in Sources */,
+				88C53F832020A07800CA8E51 /* CristalNode.swift in Sources */,
+				88C53F942020E20B00CA8E51 /* move.swift in Sources */,
+				88C53F6E201BCB7A00CA8E51 /* HeroHead.swift in Sources */,
+				88C53F902020D9D200CA8E51 /* creature.swift in Sources */,
+				88C53F8A2020AEDB00CA8E51 /* TowerNode.swift in Sources */,
 				88C53F4B2018C57100CA8E51 /* Layout.swift in Sources */,
+				88C53F5B201B1D9300CA8E51 /* WireScene.swift in Sources */,
 				880D9F192018B6580081CAD0 /* HeroTextures.swift in Sources */,
+				88C53F862020A15800CA8E51 /* side.swift in Sources */,
 				880D9F682018C38B0081CAD0 /* BattleTextures.swift in Sources */,
+				88C53F992021F81700CA8E51 /* spawn_death.swift in Sources */,
 				88C53F4D2019029B00CA8E51 /* Head.swift in Sources */,
+				88C53F7A20206CE700CA8E51 /* BattleTile.swift in Sources */,
+				88438C812023105900DE838F /* physicsNode.swift in Sources */,
+				88C53F7C20206E2A00CA8E51 /* DecoNode.swift in Sources */,
+				88C53F67201B66AE00CA8E51 /* Saver.swift in Sources */,
+				88438C832023111D00DE838F /* physicsMask.swift in Sources */,
+				88C53F922020DCFA00CA8E51 /* attack.swift in Sources */,
+				88C53F962020E2BA00CA8E51 /* heroSelectable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
